@@ -1,12 +1,5 @@
 source /data/secrets
 
-cat /data/secrets
-
-echo
-echo
-echo
-env
-
 if [ -z "$DOCUMENTDB" ]; then
   echo Environment Variable DOCUMENTDB is mising
   exit 1
